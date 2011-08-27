@@ -1,0 +1,6 @@
+<%= f.hidden_field :captcha_question %>
+<p>
+  <%= f.label :captcha_answer, "Are you human? #{f.object.captcha_question}" %>
+  <%= f.text_field :captcha_answer %>
+</p>
+
