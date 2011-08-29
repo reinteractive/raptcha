@@ -2,7 +2,7 @@ module Raptcha
  
   def self.included(model)
     model.class_eval do
-      validate :validate_captcha, :on => :create
+      validate_on_create :validate_captcha
     end
     ActionController::Base.view_paths << "#{File.expand_path(File.dirname(__FILE__))}/../views"
   end
