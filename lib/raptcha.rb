@@ -21,7 +21,7 @@ module Raptcha
       "What's the first letter in 'Belt'?" => ['B','b'], 
       "What's the first word that makes up the word 'Rawhide'?" => ['Raw','raw,' 'RAW'], 
       "What's the 5 letter in 'Accessories'?" => ['S','s'] 
-    })
+    }
   end
 
   private
